@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.sous-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+.cercle {
+    border: 1px solid indianred;
+    width: 10%;
+    height: 5rem;
+    border-radius: 24px;
+}
+
+.cube {
+    border: 1px solid indianred;
+    width: 10%;
+    height: 5rem;
+}
+
+.losange {
+    border: 1px solid indianred;
+    width: 10%;
+}
