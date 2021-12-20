@@ -18,6 +18,7 @@ body {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 
@@ -25,17 +26,26 @@ body {
 .cercle {
     border: 1px solid indianred;
     width: 10%;
-    height: 5rem;
-    border-radius: 24px;
+    height: 15rem;
+    border-radius: 240px;
 }
 
 .cube {
     border: 1px solid indianred;
     width: 10%;
-    height: 5rem;
+    height: 15rem;
 }
 
 .losange {
     border: 1px solid indianred;
     width: 10%;
+    transform: rotate(45deg);
+}
+
+.plein {
+    background: indianred;
+}
+
+.vide {
+    background: none;
 }
